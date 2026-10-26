@@ -1,0 +1,1 @@
+(()=>{try{if(sessionStorage.getItem('qian-arrival')==='1'){sessionStorage.removeItem('qian-arrival');document.documentElement.classList.add('route-enter');setTimeout(()=>document.documentElement.classList.remove('route-enter'),360)}}catch{}})();
